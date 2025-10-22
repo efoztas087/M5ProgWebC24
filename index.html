@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café8 | Op de kaart</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand">Café8</a>
+      <nav class="main-nav" aria-label="Hoofdnavigatie">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Over ons</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Webshop</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" aria-label="Zoeken">
+          <span class="icon icon-search"></span>
+        </button>
+        <button class="icon-button" type="button" aria-label="Account">
+          <span class="icon icon-user"></span>
+        </button>
+        <button class="icon-button" type="button" aria-label="Winkelmand">
+          <span class="icon icon-bag"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="menu-hero" id="menu">
+      <div class="container">
+        <p class="eyebrow">Op de kaart</p>
+        <h1>Ons menu is met liefde samengesteld.</h1>
+        <p class="lead">
+          Van romige koffies en frisse matcha tot huisgemaakte zoetigheden en
+          hartige panini's: een tosti is altijd vers belegd en met een glimlach geserveerd.
+        </p>
+      </div>
+    </section>
+
+    <section class="menu-tabs" aria-labelledby="menu">
+      <div class="container">
+        <div class="tabs" id="menu-tabs" role="tablist"></div>
+      </div>
+    </section>
+
+    <section class="menu-sections" aria-live="polite">
+      <div class="container" id="menu-sections"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-form">
+          <h2>Contact</h2>
+          <p class="contact-email">info@cafe8.nl</p>
+          <p class="contact-address">Generaal Cronjéstraat 3A<br />2012 JA Haarlem</p>
+          <form>
+            <label for="first-name">Voornaam *</label>
+            <input type="text" id="first-name" name="first-name" required />
+
+            <label for="last-name">Achternaam *</label>
+            <input type="text" id="last-name" name="last-name" required />
+
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Telefoon</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="message">Lang antwoord *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="primary-button">Verzenden</button>
+          </form>
+        </div>
+        <div class="contact-map" role="img" aria-label="Kaartweergave van Haarlem">
+          <div class="map-overlay">
+            <span>Haarlem Centrum</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; <span id="year"></span> Café8. Alle rechten voorbehouden.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+{
+  "categories": [
+    {
+      "id": "warme-dranken",
+      "label": "Warme Dranken",
+      "groups": [
+        {
+          "title": "Koffie Specials",
+          "description": "Bijzondere koffies met net dat beetje extra smaak en beleving.",
+          "items": [
+            {
+              "name": "Espresso",
+              "description": "Stevige shot pure koffie",
+              "price": "\u20ac 2,50"
+            },
+            {
+              "name": "Americano",
+              "description": "Espresso aangevuld met heet water",
+              "price": "\u20ac 2,95"
+            },
+            {
+              "name": "Cappuccino",
+              "description": "Espresso met romige melkschuim",
+              "price": "\u20ac 3,20"
+            },
+            {
+              "name": "Flat White",
+              "description": "Dubbele espresso met fluweelzachte melk",
+              "price": "\u20ac 3,60"
+            },
+            {
+              "name": "Café Latte",
+              "description": "Zachte latte met lichte schuimlaag",
+              "price": "\u20ac 3,40"
+            },
+            {
+              "name": "Espresso Macchiato",
+              "description": "Espresso met een vleugje melkschuim",
+              "price": "\u20ac 2,95"
+            }
+          ]
+        },
+        {
+          "title": "Theeselectie",
+          "description": "Ontdek ons assortiment van klassieke en bijzondere theesmaken.",
+          "items": [
+            {
+              "name": "Klassieke Thee",
+              "description": "Geselecteerd met een frisse toets van kruiden",
+              "price": "\u20ac 3,50"
+            },
+            {
+              "name": "Gemberthee",
+              "description": "Heet geserveerd met verse gember",
+              "price": "\u20ac 3,55"
+            },
+            {
+              "name": "Gemberthee met een schijfje citroen",
+              "description": "Gemberthee met een extra citrus accent",
+              "price": "\u20ac 3,65"
+            },
+            {
+              "name": "Muntthee",
+              "description": "Verse munt met een schijfje sinaasappel",
+              "price": "\u20ac 3,55"
+            }
+          ]
+        },
+        {
+          "title": "Overige Specials",
+          "description": "Ontdek onze warme specials, van kruidige chai tot romige chocolademelk. Perfect om op te warmen.",
+          "items": [
+            {
+              "name": "Chai Latte",
+              "description": "Kruidige thee met kaneel, gember en kardemom, geserveerd met melk",
+              "price": "\u20ac 4,10"
+            },
+            {
+              "name": "Dirty Chai Latte",
+              "description": "Een shot espresso met chai en opgeschuimde melk",
+              "price": "\u20ac 4,30"
+            },
+            {
+              "name": "Warme Chocolademelk",
+              "description": "Gemaakt van echte chocolade, afgetopt met slagroom",
+              "price": "\u20ac 4,50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matcha-menu",
+      "label": "Matcha Menu",
+      "groups": [
+        {
+          "title": "Matcha Favorieten",
+          "description": "Heldergroene matcha drankjes met Japanse premium matcha.",
+          "items": [
+            {
+              "name": "Matcha Latte",
+              "description": "Romige latte met ceremoniële matcha",
+              "price": "\u20ac 4,20"
+            },
+            {
+              "name": "Iced Matcha",
+              "description": "Verfrissende ijskoude matcha latte",
+              "price": "\u20ac 4,40"
+            },
+            {
+              "name": "Matcha Lemonade",
+              "description": "Sprankelende limonade met matcha en citroen",
+              "price": "\u20ac 4,60"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gebak-koekjes",
+      "label": "Gebak & Koekjes",
+      "groups": [
+        {
+          "title": "Zoete Selectie",
+          "description": "Dagelijks vers gebakken in onze eigen keuken.",
+          "items": [
+            {
+              "name": "Boterkoek",
+              "description": "Klassieke boterkoek met knapperige rand",
+              "price": "\u20ac 2,75"
+            },
+            {
+              "name": "Citroentaart",
+              "description": "Frisse citroencrème met zachte bodem",
+              "price": "\u20ac 3,95"
+            },
+            {
+              "name": "Brownie",
+              "description": "Pure chocolade met notenmix",
+              "price": "\u20ac 3,20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warme-broodjes",
+      "label": "Warme Broodjes",
+      "groups": [
+        {
+          "title": "Hartige Favorieten",
+          "description": "Vers afgebakken broodjes met huisgemaakte toppings.",
+          "items": [
+            {
+              "name": "Panini Caprese",
+              "description": "Mozzarella, tomaat, pesto en basilicum",
+              "price": "\u20ac 5,95"
+            },
+            {
+              "name": "Tosti Ham & Kaas",
+              "description": "Klassieker met oude kaas en boerenham",
+              "price": "\u20ac 4,80"
+            },
+            {
+              "name": "Gegrilde Groente",
+              "description": "Seizoensgroenten met hummus en rucola",
+              "price": "\u20ac 5,60"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iced-latte-specials",
+      "label": "Iced Latte Specials",
+      "groups": [
+        {
+          "title": "Koele Klassiekers",
+          "description": "Ideaal voor zonnige dagen en koffieliefhebbers.",
+          "items": [
+            {
+              "name": "Iced Caramel Latte",
+              "description": "Espresso, karamel en gekoelde melk",
+              "price": "\u20ac 4,60"
+            },
+            {
+              "name": "Iced Vanilla Latte",
+              "description": "Vanille-infused latte op ijs",
+              "price": "\u20ac 4,50"
+            },
+            {
+              "name": "Cold Brew Tonic",
+              "description": "Frisse cold brew met tonic en sinaasappel",
+              "price": "\u20ac 4,80"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
